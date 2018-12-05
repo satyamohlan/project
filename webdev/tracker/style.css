@@ -25,13 +25,13 @@ body{
     grid-column:1/4;;
 }
 .city,.temp{
-    font-size: 13vw;
+    font-size: 13vmin;
     text-align: center;
    margin: 0px;
 
 }
 .wi{
-    font-size:20vw;
+    font-size:20vmin;
     padding-top:40px;
     text-align: center;
     width:100%;
@@ -47,7 +47,7 @@ body{
 }
 h2{
     text-align: center;
-    font-size: 4.5vw;
+    font-size: 4.5vmin;
     margin: 0px;
 }
 .sun{
@@ -55,7 +55,7 @@ h2{
     text-align: center;
     display:grid;
     grid-template-columns:1fr 2fr ;
-    font-size:5vw;
+    font-size:5vmin;
      align-items:center;
 
          grid-auto-rows:minmax(50px,auto);
@@ -89,10 +89,10 @@ grid-row:3/3;
 
 @media(min-width:800px){
     .city,.temp{
-      font-size:8vw;
+      font-size:8vmin;
     }
     .main .wi{
-  font-size:10vw;
+  font-size:10vmin;
     }
 }
 @media(max-width:600px){
